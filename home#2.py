@@ -1,10 +1,10 @@
 import openai
 
-openai.api_key = ""
+openai.api_key = "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"
 
 response = openai.Image.create(
-  prompt="dog in 3d render.",
-  n=1,
+  prompt="solar system",
+  n=4,
   size="1024x1024"
 )
 print(response)
